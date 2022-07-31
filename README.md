@@ -30,7 +30,8 @@ Created input form for initial page. <br>
 Created responsive layout of application. <br> 
 
 ### Deployment Link
-To View Code Quiz application, You can use below link.
+To View Code Quiz application, You can use below link. <br>
+https://vaishaliqa.github.io/WebAPIChallenge_CodeQuiz/
 
 ### Skill Improved
 Event Listener <br>
