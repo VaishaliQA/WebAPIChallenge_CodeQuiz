@@ -224,6 +224,7 @@ function showScores() {
   var span = document.getElementById("answer");
   if (!isQuizRunning) {
     title.textContent = "High Scores";
+    title.setAttribute("style","align-self:center;")
     btnStart.setAttribute("style", "display:none");
     writeScores();
     createEndButtons();
