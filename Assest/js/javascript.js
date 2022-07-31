@@ -271,14 +271,18 @@ function clearScores() {
 
 // create buttons and set listener click event
 function createEndButtons() {
+  var subDiv = document.createElement("div")
+  subDiv.setAttribute("id","subcontainer")
+  subDiv.setAttribute("style","flex-direction:row;")
+  container.appendChild(subDiv)
   if (!document.getElementById("restart")) {
     let buttonEl = document.createElement("button");
-    container.appendChild(buttonEl);
+    subDiv.appendChild(buttonEl);
     buttonEl.textContent = "Go Back";
     buttonEl.setAttribute("id", "restart");
 
     let clearButtonEl = document.createElement("button");
-    container.appendChild(clearButtonEl);
+    subDiv.appendChild(clearButtonEl);
     clearButtonEl.textContent = "Clear High Scores";
     clearButtonEl.setAttribute("id", "clearScores");
 
@@ -293,6 +297,7 @@ function restart() {
   content.setAttribute("style", "align-self: center; font-size: 110%");
   document.getElementById("restart").remove();
   document.getElementById("clearScores").remove();
+  document.getElementById("subcontainer").remove();
   title.textContent = "Coding Quiz Challenge";
   content.textContent =
     "Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by reducing it by ten seconds.";
