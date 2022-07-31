@@ -1,7 +1,7 @@
 # WebAPIChallenge_CodeQuiz
 
 ### Description
-I have created interactive code quiz challenge full stack application using HTML, CSS and Javascript. I have created cleaned, policed and responsive user interface. This code quiz challenge have 10 multiple choice questions of javascript languange. If you have provide incorrect answer then it will decrease time and if correct, then score added to your bucket. At final, You will see total score of your question answers. Once, You added in list you can see in High score board. In High score board, It will show top 5 score you have.
+I have created interactive code quiz challenge full stack application using HTML, CSS and Javascript. I have created cleaned, policed and responsive user interface. This code quiz challenge have 10 multiple choice questions of javascript languange. If you provide incorrect answer then it will decrease time and if correct, then score added to your bucket. At final, You will see total score of your question answers. Once, You added in list you can see in High score board. In High score board, It will show top 5 score you have.
 
 ### Table of Contents
 __________________________________________
@@ -38,8 +38,8 @@ https://vaishaliqa.github.io/WebAPIChallenge_CodeQuiz/
 Event Listener <br>
 DOM Localstorage <br>
 Preventing Default <br>
-Used Timer Intervals <br>
-Generated dynamic html elmentes and se tattributes <br>
+Using Timer Intervals <br>
+Generating dynamic html elmentes and set attributes <br>
 
 ### Tools
 - Visual Studio Code
